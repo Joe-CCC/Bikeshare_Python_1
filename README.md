@@ -2,7 +2,7 @@
 07/01/2019
 
 ### Project Title
-explore the bikeshare data
+explore the bikeshare data using Python
 
 ### Description
 This project shows descripted bikeshare data upon users' request to assist users get meaningful insights of bikeshare industry.
