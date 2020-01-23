@@ -179,7 +179,7 @@ def main():
 
         count = 0
         while True:
-            raw = input('\nWould you like to see the raw data? Enter yes or no.\n')
+            raw = input('\nWould you like to see the raw data or see additional 5 rows data? Enter yes or no.\n')
 
             if raw.lower() == 'yes':
                 print(df.iloc[count:count+5])
@@ -189,7 +189,7 @@ def main():
 
 
 
-        restart = input('\nWould you like to restart? Enter yes or no.\n')
+        restart = input('\nWould you like to restart the program? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
 
